@@ -1,10 +1,17 @@
-package week1.day1;
+package week3.day1;
 
 public class Browser {
+	String browserName = "Chrome";
+	int browserVersion = 9;
 	
-public static void main(String[] args) {
-	Chrome C1 = new Chrome();
-	C1.getName();
-	C1.printName();
+	public void openURL() {
+		System.out.println("Open URL");
+	}
+	public void navigateBack() {
+		System.out.println("Navigate Back");
+	}
+	public void closeBrowser() {
+		System.out.println("Close the Browser");
+
 }
 }
